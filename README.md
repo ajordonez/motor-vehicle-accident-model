@@ -28,10 +28,11 @@ Due to the large dataset, full execution in Jupyter is not possible. However, th
 
 ## Project Structure
 ```
+├── cleaned_data/         #Cleaned CSV files created from the queries listed
 ├── notebooks/            #Jupyter Notebook with final report
 ├── scripts/              #R scripts for data processing and modeling
-├── queries/              #SQL queries used in BigQuery
-├── tableau/              #Data visualization for the heatmap
+├── queries/              #SQL queries used in BigQuery used to create CSVs in cleaned_data/
+├── tableau/              #Data visualization file for the heatmap
 ├── README.md             #Project documentation
 ```
 

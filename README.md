@@ -28,10 +28,11 @@ Due to the large dataset, full execution in Jupyter is not possible. However, th
 
 ## Project Structure
 ```
-├── notebooks/            # Jupyter Notebook with final report
-├── scripts/              # R scripts for data processing and modeling
-├── queries/              # SQL queries used in BigQuery
-├── README.md             # Project documentation
+├── notebooks/            #Jupyter Notebook with final report
+├── scripts/              #R scripts for data processing and modeling
+├── queries/              #SQL queries used in BigQuery
+├── tableau/              #Data visualization for the heatmap
+├── README.md             #Project documentation
 ```
 
 ## How to Use
@@ -44,7 +45,9 @@ Due to the large dataset, full execution in Jupyter is not possible. However, th
 ## Next Steps
 - Expand the model to include additional risk factors like **time of day and brand of vehicle**.
 - Explore **interaction effects** between variables for deeper insights.
-- Investigate potential **biases in reporting for unlicensed drivers**.
+- Utilize regression model to make predictions
+- Compare and contrast NYC post congestion pricing vs pre congestion pricing
+- Implement Jupyter notebook and Google Cloud compatability to allow SQL to be used in the notebook
 
 ## Author
 **Alejandro J. Ordonez** – Junior in Statistics & Quantitative Modeling and aspiring actuary.

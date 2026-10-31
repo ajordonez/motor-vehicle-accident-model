@@ -1,7 +1,7 @@
 # NYC Motor Vehicle Accident Analysis
 
 ## Overview
-This project analyzes **NYC motor vehicle accident data** from the last 10 years (Jan 2015- Dec 2024) to identify key factors influencing injury and fatality risks. Using **BigQuery, R, and logistic regression**, the analysis explores the impact of **borough, vehicle type, driver demographics, and license status** on accident outcomes. The findings can help insurers assess risk profiles more effectively.
+This project analyzes NYC motor vehicle accident data from the last 10 years (Jan 2015- Dec 2024) to identify key factors influencing injury and fatality risks. Using BigQuery, R, and logistic regression, the analysis explores the impact of borough, vehicle type, driver demographics, and license status on accident outcomes. The findings can help insurers assess risk profiles more effectively.
 
 In addition to the regression model, this project also includes an interactive heat map of collisions in NYC. The link to the heatmap:
 https://public.tableau.com/app/profile/alejandro.ordonez/viz/motor_vehicle_heat_map/Sheet1?publish=yes
@@ -13,9 +13,7 @@ https://public.tableau.com/app/profile/alejandro.ordonez/viz/motor_vehicle_heat_
 - **Unlicensed and permit drivers show lower reported injury rates**
 
 ## Technologies Used
-- **BigQuery**: Data extraction and preprocessing from NYC Open Data.
-- **R (RStudio)**: Data cleaning, transformations, and statistical modeling.
-- **Jupyter Notebook**: Documentation, visualization, and final report presentation.
+**BigQuery**, **R (RStudio)**, **Jupyter Notebook**
 
 ## Data Sources
 The dataset comes from **NYC Open Data's motor vehicle accident records**, processed through BigQuery. Due to dataset size constraints (>1GB), the full dataset is not included here, but queries are provided to reproduce the analysis.
@@ -35,13 +33,6 @@ Due to the large dataset, full execution in Jupyter is not possible. However, th
 ├── tableau/              #Data visualization file for the heatmap
 ├── README.md             #Project documentation
 ```
-
-## How to Use
-1. **Run SQL queries in BigQuery** to extract relevant data.
-2. **Process and clean data using the provided R scripts** in RStudio.
-3. **Analyze results using logistic regression** to assess risk factors.
-4. **Review the final findings in the Jupyter Notebook**.
-5. **Interact with the heatmap in Tableau Public**.
 
 ## Next Steps
 - Expand the model to include additional risk factors like **time of day and brand of vehicle**.
